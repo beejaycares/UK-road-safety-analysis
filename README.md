@@ -7,7 +7,9 @@ This dataset was sourced from Kaggle website, a popular platform for contemporar
 Moreover, the original source of the data is Open Data website of the UK government, where they have been published by the Department of Transport.
 
 The dataset comprises of two csv files:
+
 •	Accident_Information.csv: every line in the file represents a unique traffic accident (identified by the Accident_Index column), featuring various properties related to the accident as columns. Date range: 2005-2017
+
 •	Vehicle_Information.csv: every line in the file represents the involvement of a unique vehicle in a unique traffic accident, featuring various vehicle and passenger properties as columns. Date range: 2004-2016
 
 The two above-mentioned files/datasets were linked using the unique traffic accident identifier (Accident_Index column).
@@ -17,9 +19,13 @@ Therefore, I resorted to using Python which did not only enable me load the two 
 The linked data sets could have been uploaded here for download but the size is quite enormous and larger than the 25mb restriction. However, the dataset is available upon request.
 
 The four files in this repository are 
+
 UK_road_accident.py (python file version)
+
 UK_road_accident.ipynb (Jupyter Notebook file version)
+
 Road_safety_analysis.twb (This a tableau workbook file containing the visualisations and dashboards for easy comprehension of the UK road accidents between 2005 and 2016)
+
 Dashboard.pdf (This contains the three dashboards created from the linked data set but presented in pdf format for easy access on any device)
 Cheers Mate!
 
