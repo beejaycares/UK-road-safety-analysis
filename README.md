@@ -16,11 +16,11 @@ This rendered the use of Microsoft Excel useless as it is a Big Data that exceed
 Therefore, I resorted to using Python which did not only enable me load the two data sets but also facilitates smooth and efficient exploration of the data sets. 
 The linked data sets could have been uploaded here for download but the size is quite enormous and larger than the 25mb restriction. However, the dataset is available upon request.
 
-The three files in this repository are 
+The four files in this repository are 
 UK_road_accident.py (python file version)
 UK_road_accident.ipynb (Jupyter Notebook file version)
-Road_safety_analysis.twb (This a tableau workbook file containing the visualisation and dashboards for easy comprehension of the UK road accidents between 2005 and 2016)
-
+Road_safety_analysis.twb (This a tableau workbook file containing the visualisations and dashboards for easy comprehension of the UK road accidents between 2005 and 2016)
+Dashboard.pdf (This contains the three dashboards created from the linked data set but presented in pdf format for easy access on any device)
 Cheers Mate!
 
 I hope this helps.
