@@ -88,7 +88,7 @@ df_selected.drop(['Skidding_and_Overturning'], axis=1, inplace=True)
 
 df_selected['Pedestrian_Crossing-Physical_Facilities'].unique()
 
-# OBJECTIVE 1 - ACCIDENT TREND ANALYSIS
+# EXPLORATORY DATA ANALYSIS - ACCIDENT TREND ANALYSIS
 # First ordered the data by month
 months_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 df_selected['Month_Name'] = pd.Categorical(df_selected['Month_Name'], categories = months_order, ordered= True)
@@ -159,7 +159,9 @@ sns.lineplot(x='Month_Name', y='Number_of_Casualties', data=total_monthly_casual
 plt.title('Total Number of Casualties by Month (2005 - 2016)')
 plt.xlabel('Month')
 
-# OBJECTIVE 2 - SEVERITY OF ACCIDENTS
+# EXPORT THE DATA IN CSV
 
+df_selected.to_csv('Traffic_Accidents_Cleaned.csv', index=False)
 
+print('Data exported successfully to Traffic_Accidents_Cleaned.csv')
 
